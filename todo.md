@@ -37,13 +37,13 @@ This checklist breaks down the project into small, iterative tasks to ensure ste
 ---
 
 ## 3. Selenium Scraping Framework
-- [ ] **Base Selenium Scraper**
-  - [ ] Create a base class (e.g., `BaseScraper`) in `base_scraper.py`.
-    - [ ] Implement methods for initializing and closing the Chrome WebDriver.
-    - [ ] Start with a visible browser session (for debugging purposes).
-    - [ ] Include basic error handling and logging stubs.
+- [x] **Base Selenium Scraper**
+  - [x] Create a base class ('AutoHawkScraper' in `scraper.py`.
+    - [x] Implement methods for initializing and closing the Chrome WebDriver.
+    - [x] Start with a visible browser session (for debugging purposes).
+    - [x] Include basic error handling and logging stubs.
 - [ ] **Testing**
-  - [ ] Write pytest tests to ensure that the WebDriver starts and stops correctly.
+  - [x] Write pytest tests to ensure that the WebDriver starts and stops correctly.
 
 ---
 
