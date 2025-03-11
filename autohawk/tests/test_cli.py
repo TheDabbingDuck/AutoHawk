@@ -3,11 +3,8 @@ Tests for the AutoHawk CLI module.
 """
 
 import pytest
-import sys
-import os
 
-
-from cli import parse_args, validate_year, validate_zip, validate_radius
+from autohawk.cli import parse_args, validate_year, validate_zip, validate_radius
 
 
 def test_parse_args_valid_inputs():
